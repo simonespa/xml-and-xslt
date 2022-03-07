@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT person (name, profession*)>
+<!ELEMENT name EMPTY>
+<!ELEMENT profession EMPTY>
+
+<!ATTLIST name
+	first CDATA #REQUIRED
+	last CDATA #REQUIRED
+>
+<!ATTLIST profession
+	value NMTOKENS #REQUIRED
+>

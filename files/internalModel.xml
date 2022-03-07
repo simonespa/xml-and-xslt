@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hrest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<service id="srv1">
+		<label>Happenr</label>
+		<operation id="op1">
+			<label>getEvent</label>
+			<address>http://www.dominio.it/getEvent</address>
+			<input />
+			<input />
+			<output />
+		</operation>
+	</service>
+</hrest>
+		
+		
+	

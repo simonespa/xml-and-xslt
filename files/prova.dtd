@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT person (name, (profession)?, (profession)?, (profession)?)>
+<!ELEMENT name (first_name, last_name)>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT profession (#PCDATA)>
